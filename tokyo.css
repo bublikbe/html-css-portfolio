@@ -1,0 +1,226 @@
+html {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+  background-color: #273746;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #273746;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.tokyo {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://uceap.universityofcalifornia.edu/sites/default/files/marketing-images/country-page-images/japan-page-header.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+h1 {
+  font-size: 70px;
+  text-shadow: 2px 2px 4px rgb(149, 165, 166);
+  color: #ecf0f1;
+}
+.text {
+  padding: 15% 20%;
+}
+header ul {
+  margin: 1px 0px;
+}
+.contact-button {
+  background-color: #e7e7e7;
+  color: black;
+  border: none;
+  padding: 13px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.contact-button:hover {
+  background-color: #99a3a4;
+  color: black;
+}
+#tours {
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  flex-direction: row;
+  color: #e7e7e7;
+  justify-content: space-between;
+}
+.type-tours {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+#tours .type-tours {
+  width: 100%;
+  object-fit: cover;
+}
+#teamlab {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://cdn.getyourguide.com/img/tour/60e5561c429f3.jpeg/145.jpg");
+  background-size: cover;
+  height: 500px;
+  white-space: nowrap;
+  margin-right: 10px;
+  background-position: center; /* made a picture in the center */
+}
+#japanesedance {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://cdn.getyourguide.com/img/tour/302693c33bd994aaa91381d760e59d0ae34e97cbbe8564ce8f4dc7b1189366b2.jpeg/98.jpg");
+  background-size: cover;
+  height: 500px;
+  white-space: nowrap;
+  margin-right: 10px;
+  background-position: center; /* made a picture in the center */
+}
+#mountfuji {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://cdn.getyourguide.com/img/tour/ba810ddb4bd8e2cbb9437adde02214414bc9db03a884a237a1f6d785f6a147fd.jpg/98.jpg");
+  background-size: cover;
+  height: 500px;
+  white-space: nowrap;
+  margin-right: 10px;
+  background-position: center; /* made a picture in the center */
+}
+#kamakura {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://cdn.getyourguide.com/img/tour/211d27b085c52930bd70205d8937f349656c7f939c6284c72fd6f6351cde7ced.jpg/145.jpg");
+  background-size: cover;
+  height: 500px;
+  white-space: nowrap;
+  background-position: center; /* made a picture in the center */
+}
+#teamlab:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://lh3.googleusercontent.com/p/AF1QipM-gRAcMT8AtQB9IdBv-ogeGWlIBT5N0uw0AEMV=s1360-w1360-h1020");
+  transition-delay: 1s; /*added delay of the trasition */
+  background-size: cover;
+  height: 500px;
+  white-space: nowrap;
+  margin-right: 10px;
+  background-position: center;
+} /* made a mouseover to get picture more darker */
+#japanesedance:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0a/2f/4a/62.jpg");
+  transition-delay: 1s; /*added delay of the trasition */
+  background-size: cover;
+  height: 500px;
+  white-space: nowrap;
+  margin-right: 10px;
+  background-position: center;
+} /* made a mouseover to get picture more darker */
+#mountfuji:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://media-cdn.tripadvisor.com/media/photo-m/1280/2a/b2/93/ba/caption.jpg");
+  /* transition-delay: 1s; /*added delay of the trasition */
+  background-size: cover;
+  height: 500px;
+  white-space: nowrap;
+  margin-right: 10px;
+  background-position: center;
+} /* made a mouseover to get picture more darker */
+#kamakura:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://www.theinvisibletourist.com/wp-content/uploads/2020/04/featured_148.jpg");
+  transition-delay: 1s; /*added delay of the trasition */
+  background-size: cover;
+  height: 500px;
+  white-space: nowrap;
+  background-position: center;
+} /* made a mouseover to get picture more darker */
+h3 {
+  font-size: 3vh;
+  color: #e7e7e7;
+  text-shadow: 2px 2px 4px rgb(149, 165, 166);
+}
+.place-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.our-tours {
+  text-align: center;
+  font-size: 40px;
+  color: #e7e7e7;
+  text-shadow: 2px 2px 4px rgb(149, 165, 166);
+}
+.field input {
+  color: white;
+  border: none;
+  border-bottom: 1px solid #3f3f3f;
+  background: none;
+  padding: 5px 0;
+  margin-top: 32px;
+  width: 100%;
+}
+.field input:focus + label,
+.field input:valid + label {
+  bottom: 25px;
+  font-size: 13px;
+}
+#contact-us {
+  width: 90%;
+  max-width: 500px;
+  background-color: #33475b; /* Box background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+label {
+  display: block;
+  font-size: 16px;
+  margin: 15px 0 5px;
+  text-align: left;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #e6e6e6;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
